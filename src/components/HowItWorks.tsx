@@ -5,12 +5,12 @@ const steps = [
   {
     icon: Upload,
     title: 'Upload Your Contract',
-    description: 'Simply drag and drop your rental agreement PDF or paste the text. Your document is processed locally for privacy.'
+    description: 'Simply drag and drop your rental agreement PDF or paste the text directly into the analyzer.'
   },
   {
     icon: Search,
-    title: 'Contract Analysis',
-    description: 'Our system scans for 20+ common problematic clauses specific to BC rental laws and the Residential Tenancy Act.'
+    title: 'AI-Powered Analysis',
+    description: 'Our AI analyzes your contract against BC rental laws and the Residential Tenancy Act to identify potential issues.'
   },
   {
     icon: Shield,
