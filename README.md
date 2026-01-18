@@ -45,50 +45,6 @@ An intelligent contract analysis tool for BC university students to identify pro
 - **State Management**: React Hooks
 - **Icons**: Lucide React
 
-## Prerequisites
-
-- Node.js 18+ and npm
-- Google Gemini API key ([Get one here](https://ai.google.dev/))
-
-## Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone <repository-url>
-cd RentRelief
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Configure Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-VITE_GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-**Important**: Never commit your `.env` file to version control!
-
-### 4. Run Development Server
-
-```bash
-npm run dev
-```
-
-The application will be available at `http://localhost:5500`
-
-### 5. Build for Production
-
-```bash
-npm run build
-```
-
 ## How It Works
 
 ### Analysis Flow
@@ -158,62 +114,12 @@ try {
 - **No Data Storage**: Contracts are not saved or uploaded to servers
 - **HTTPS Required**: Use HTTPS in production for API calls
 
-## Cost Estimation
-
-Using Gemini 1.5 Flash:
-- **Per Analysis**: ~$0.0009 (less than 1 cent)
-- **100 analyses**: ~$0.09
-- **1,000 analyses**: ~$0.90
-- **Free Tier**: 15 requests/minute included
-
-## Testing
-
-### Run Tests
-
-```bash
-npm test
-```
-
-### Test with Sample Contract
-
-A test contract with problematic clauses is included:
-```bash
-# See test-contract.txt in the root directory
-```
-
-Upload this file to see how the AI identifies multiple violations.
-
-## Troubleshooting
-
-### "Gemini API key not configured"
-- Ensure `.env` file exists with `VITE_GEMINI_API_KEY`
-- Restart the dev server after adding the key
-
-### "Analysis failed, using fallback"
-- Check your internet connection
-- Verify API key is valid
-- Check Gemini API quota/limits
-- The fallback system will still provide results
-
-### PDF not parsing correctly
-- Ensure PDF is text-based (not scanned image)
-- Try converting to TXT format
-- Check file size (<10MB recommended)
-
 ## Resources
 
 - [BC Residential Tenancy Act](https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01)
 - [BC Residential Tenancy Branch](https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies)
 - [Google Gemini API Docs](https://ai.google.dev/docs)
 - [shadcn/ui Documentation](https://ui.shadcn.com/)
-
-## Contributing
-
-Contributions are welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
 
 ## License
 
@@ -225,7 +131,3 @@ This tool provides informational analysis only and does not constitute legal adv
 - BC Residential Tenancy Branch: 1-800-665-8779
 - A qualified lawyer or legal aid service
 - Your university's student legal services
-
-## Built For
-
-BC University Students - helping you avoid bad leases and understand your rights!
