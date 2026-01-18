@@ -10,10 +10,7 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
           <img src="/logo.svg" alt="RentRescue Logo" className="w-10 h-10 rounded-lg" />
-          <div>
-            <h1 className="text-xl font-bold">RentRescue</h1>
-            <p className="text-xs text-muted-foreground hidden sm:block">Contract Analyzer for Students</p>
-          </div>
+          <h1 className="text-xl font-bold">RentRescue</h1>
         </div>
 
         {/* Desktop Navigation */}

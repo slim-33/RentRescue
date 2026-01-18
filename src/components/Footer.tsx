@@ -10,11 +10,6 @@ export function Footer() {
             <span className="font-bold">RentRescue</span>
           </div>
           
-          <p className="text-sm text-muted-foreground max-w-md">
-            Helping BC university students understand their rental contracts and know their rights 
-            under the Residential Tenancy Act.
-          </p>
-          
           <div className="flex items-center gap-1 text-sm text-muted-foreground">
             Made with <Heart className="w-4 h-4 text-red-500" /> for BC students
           </div>
