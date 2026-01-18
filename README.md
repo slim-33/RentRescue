@@ -10,8 +10,6 @@ An intelligent contract analysis tool for BC university students to identify pro
 - **Risk Scoring**: Provides an overall risk assessment (0-100 scale)
 - **Actionable Recommendations**: Offers specific advice based on flagged issues
 - **Privacy-First**: All processing happens in your browser (except AI API calls)
-- **Responsive Design**: Works on desktop, tablet, and mobile devices
-- **Fast Analysis**: Results in 2-5 seconds with AI, instant fallback to pattern matching
 
 ## What It Detects
 
@@ -29,7 +27,7 @@ An intelligent contract analysis tool for BC university students to identify pro
 - Improper rent increase terms
 - Pet deposit violations
 
-### Informational Clauses
+### Informational Clauses/Low-Risk Issues
 - Standard notice periods
 - Utility responsibilities
 - Subletting policies
@@ -43,7 +41,6 @@ An intelligent contract analysis tool for BC university students to identify pro
 - **PDF Processing**: PDF.js
 - **Routing**: React Router v6
 - **State Management**: React Hooks
-- **Icons**: Lucide React
 
 ## How It Works
 
